@@ -33,3 +33,6 @@ Secondly, the data stored in S3 is transferred to DynamoDB through an AWS Glue J
 The Glue Job, which encompasses the Crawler, can be triggered either on demand or based on a predefined schedule. To facilitate this, the Glue Job is integrated with the Workflows functionality provided by AWS Glue.
 
 The Glue Job itself is a Python script that retrieves data from S3 and loads the incremental data into DynamoDB. To enable incremental loading into the next service, it is crucial to enable job bookmarking in the Glue Service.
+
+
+[Refer the Link for collection of screenshots captured during the project execution](https://docs.google.com/document/d/1ActHR_vqJEFCd2dVVy6RfjH6SQ-clMEN/edit?usp=drive_link&ouid=102047065766224889946&rtpof=true&sd=true)
